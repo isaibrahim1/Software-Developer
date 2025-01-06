@@ -1,0 +1,10 @@
+
+
+header {
+    background-image: url(../images/background.webp);
+    background-size: cover;
+    min-height: 500px;
+    background-position: 50% 70%;
+    margin: 5px 7px;
+
+}
