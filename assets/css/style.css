@@ -1,5 +1,14 @@
 
 
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #a4c2d1;
+}
+
+.sharp-corners,
+.sharp-corners * {
+    border-radius: 0;
+}
 header {
     background-image: url(../images/background.webp);
     background-size: cover;
