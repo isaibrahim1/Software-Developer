@@ -8,3 +8,29 @@ header {
     margin: 5px 7px;
 
 }
+#portfolio {
+    background-color: #92aee6;
+    font-size: 1.2rem;
+}
+#portfolio .btn-outline-secondary:hover {
+    background-color: #1f7798;
+   
+}
+#portoloio .card-text { /* All card same size*/
+    min-height: 120p;
+}
+#portfolio .card-text {
+    min-height: 120px;
+}
+
+/* Content section */
+#content {
+    background-color: white;
+}
+/* Media queries */
+/* Use Bootstrap breakpoint for xl screens*/
+@media screen and (min-width: 1200px) {
+    #portfolio .card-text {
+        min-height: auto;
+    }
+}
